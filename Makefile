@@ -1,6 +1,6 @@
 NAME ?= LineageOS-Kernel
 DEVICE := Vince
-LINUX_VERSION ?= 4.9
+LINUX_VERSION := 4.9
 DATE := $(shell date "+%d%m%Y-%I%M")
 
 SZIP := $(NAME)-$(DEVICE)-$(LINUX_VERSION)-STABLE-$(DATE).zip
